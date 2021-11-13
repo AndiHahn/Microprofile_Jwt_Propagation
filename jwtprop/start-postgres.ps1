@@ -1,0 +1,1 @@
+docker run --name jwt-db -e POSTGRES_USER=jwt -e POSTGRES_PASSWORD=jwt -e POSTGRES_DB=jwt-db --publish 5432:5432 -d postgres
